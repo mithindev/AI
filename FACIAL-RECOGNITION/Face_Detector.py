@@ -10,7 +10,7 @@ webcam = cv2.VideoCapture(0)
 # Iterate Forever over the frames
 while True:
     # Read current frame
-    successful_frame_read, frame = webcam.read('1.mp4')
+    successful_frame_read, frame = webcam.read(0)
 
     # Convert to grayscale
     grayscaled_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
