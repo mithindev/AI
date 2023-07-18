@@ -1,3 +1,2 @@
-aug_data\
-data\
-venv\
+data/
+aug_data/
